@@ -1,0 +1,110 @@
+.site-min-height {
+    min-height: 900px;
+}
+.wrapper {
+    display: inline-block;
+    padding: 0 15px 15px 15px;
+    width: 100%;
+}
+
+.darkblue-panel {
+    text-align: center;
+    background: #444c57;
+}
+
+.darkblue-panel .darkblue-header {
+    background: transparent;
+    padding: 3px;
+    margin-bottom: 15px;
+}
+
+.darkblue-panel .darkblue-body {
+    position: relative;
+}
+
+.darkblue-panel h5 {
+    font-weight: 200;
+    margin-top: 10px;
+    color: white;
+}
+
+.darkblue-panel footer h5 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.darkblue-panel footer {
+    color: white;
+}
+
+.video-splash {
+    width: 275px;
+    height:165px;
+}
+
+.play-button {
+    position: relative;
+    display: block;
+    width: 60px;
+    top: -105px;
+    left: 130px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .play-button {
+        left: 175px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .play-button {
+        left: 130px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .play-button {
+        left: 290px;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .play-button {
+        left: 263px;
+    }
+}
+
+@media only screen and (max-width: 645px) {
+    .play-button {
+        left: 230px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .play-button {
+        left: 195px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .play-button {
+        left: 160px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .play-button {
+        left: 140px;
+    }
+}
+
+.pn {
+    height: 250px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+.mb {
+    margin-bottom: 25px;
+}

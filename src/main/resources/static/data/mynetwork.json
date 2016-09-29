@@ -1,0 +1,10 @@
+{"nodes":[{"name":"Bobby Flay","group":1, "nodeImgUrl": "../images/user-profile-bobby.png", "fixed":false},
+  {"name":"Don Yoakum","group":1, "nodeImgUrl": "../images/user-profile-don.png", "fixed": true},
+  {"name":"Adam West","group":1, "nodeImgUrl": "../images/user-profile-image.png", "fixed": false},
+  {"name":"Austin Powers","group":1, "nodeImgUrl": "../images/user-profile-image-1.png", "fixed": false},
+  {"name":"James Dean","group":1, "nodeImgUrl": "../images/user-profile-image-2.png", "fixed": false},
+  {"name":"Angela Ashes","group":1, "nodeImgUrl": "../images/user-profile-image-3.png", "fixed": false},
+  {"name":"Tito Mendez","group":1, "nodeImgUrl": "../images/user-profile-image-4.png", "fixed": false},
+  {"name":"Juan Perez","group":1, "nodeImgUrl": "../images/user-profile-image-5.png", "fixed": false},
+  {"name":"Stephanie Sims","group":1, "nodeImgUrl": "../images/user-profile-image-6.png", "fixed": false}],
+  "links":[{"source":1,"target":0,"value":1}]}

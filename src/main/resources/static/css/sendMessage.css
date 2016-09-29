@@ -1,0 +1,174 @@
+#inbox-content-row {
+    margin-right: -15px;
+    margin-left: 0px;
+}
+
+#inbox-panel table td.notification-time {
+    font-weight: 500;
+}
+
+#inbox-panel table tr>td.vert-align{
+    vertical-align: middle;
+}
+
+#inbox-panel td.notification-message {
+    text-align: left;
+    cursor: pointer;
+}
+
+#inbox-panel table tr.on {
+    font-style: normal;
+    font-weight: 500;
+}
+
+#inbox-panel table tr.off {
+    font-style: italic;
+    font-weight: 400;
+}
+
+#inbox-panel .avatar-pull-left {
+    position: relative;
+    right: 10px;
+}
+
+
+#contacts-region-container .panel {
+    margin-bottom: 0px;
+}
+
+#contacts-region-container .panel-body {
+    padding: 0;
+}
+
+#contacts-region {
+    max-height: 155px;
+    overflow: auto;
+}
+
+#contacts-region ul {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow-y: hidden;
+    width: 100%;
+    min-height: 40px;
+}
+
+#contacts-region .pill {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 7.5px 5px 0;
+    background-color: #f1f3f5;
+    outline: 0;
+    cursor: pointer;
+}
+
+#contacts-region .pill-name {
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    font-weight: normal;
+    padding: 5px;
+}
+
+#contacts-region .pill.selected {
+    background-color: #337AB7;
+}
+
+#contacts-region .pill.selected .pill-name {
+    color: #ffffff;
+}
+
+/* Drag and Drop */
+
+.listActive {
+    width: 63px;
+    height: 63px;
+    border: 1px solid #ccc;
+    background-color: #fcfcfc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 35px;
+    /* padding: 0.5em 0 3em 0 !important; */
+}
+
+.placeholderOn {
+    list-style-type: none;
+    text-align: center;
+    font-style: italic;
+    background-color: #fff !important;
+    color: #aaa !important;
+}
+
+.placeholderDropped {
+    list-style-type: none;
+    text-align: center;
+    font-style: italic;
+    border: 2px dashed #fff !important;
+    background-color: #fff !important;
+    color: #aaa !important;
+}
+
+.placeholder {
+    list-style-type: none;
+    text-align: center;
+    font-style: italic;
+    border: 2px dashed #ccc !important;
+    background-color: #fff !important;
+    color: #aaa !important;
+}
+
+.contacts-region-border {
+    border: 1px dashed #ccc;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.contacts-region-border-on {
+    border: 2px dashed #666;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #e0e0e0;
+}
+
+.contacts-region-border-dropped {
+    border: 1px dashed #ccc;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.pill .close {
+    font-size: 18px;
+}
+
+#new-contact {
+    position: absolute;
+    width: 60%;
+    left: 40%;
+    top: 38px;
+    z-index: 1000;
+}
+
+#add-pill-name .search-results {
+    margin-top: 31px;
+    min-width: 350px;
+    max-height: 453px;
+    overflow-x: hidden;
+}
+
+#add-pill-name .search-results li.divider {
+    padding-bottom: 5px;
+}
+
+.new-contact-button {
+    position: relative;
+    top: -4px;
+}

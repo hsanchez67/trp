@@ -1,0 +1,101 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+html{
+    color:#626771;
+    font-family: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+.VerifyHelp {
+    background: url('../images/bg-header.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 750px;
+}
+
+.VerifyHelp-container {
+    background: rgba(107, 107, 97, 0.75);
+    min-height: 750px;
+}
+
+.form-verifyHelp {
+    max-width: 390px;
+    margin: 100px auto 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.form-verifyHelp .verifyHelp-wrap {
+    padding: 20px;
+}
+.form-verifyHelp p {
+    text-align: center;
+    color: #b6b6b6;
+    font-size: 16px;
+    font-weight: 300;
+}
+.form-verifyHelp .form-verifyHelp-heading {
+    text-align: center;
+    padding: 20px 15px;
+    background: #34495e;
+    webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.form-verifyHelp .checkbox {
+    margin-bottom: 10px;
+}
+.form-verifyHelp .checkbox {
+    font-weight: normal;
+}
+.form-verifyHelp .errorMessage {
+    margin-top:20px;
+}
+.form-verifyHelp .form-control {
+    position: relative;
+    height: auto
+-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-verifyHelp .form-control:focus {
+    z-index: 2;
+}
+.form-verifyHelp input[type="email"] {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-verifyHelp button {
+    margin-top: 15px;
+}
+.form-verifyHelp .alert {
+    padding: 10px;
+}
+
+.form-verifyHelp .help-block {
+    display: block;
+    margin-top: 5px;
+    /* margin-bottom: 10px; */
+    color: rgba(115, 115, 80, 0.57);
+    font-size: 90%;
+}

@@ -1,0 +1,37 @@
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+p {
+    font-size: 16px;
+
+}
+
+div {
+    position: absolute;
+}
+
+.link {
+    stroke: #ccc;
+}
+
+.node text {
+    pointer-events: none;
+    font: 10px sans-serif;
+}
+
+.node2 {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+.node2 {
+    font: 10px sans-serif;
+}
+.link2 {
+    fill: none;
+    stroke: #ff8888;
+    stroke-width: 1.5px;
+}

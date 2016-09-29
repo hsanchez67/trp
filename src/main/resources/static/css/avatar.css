@@ -1,0 +1,260 @@
+#avatarProfile #user {
+    position: relative;
+    width:200px;
+    margin: 0 auto;
+}
+
+#avatarProfile #user img {
+    width: 100px;
+    height: 100px;
+}
+
+#avatarProfile #user .avatar-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #cccccc;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    position: relative;
+    left: 53px;
+}
+
+#avatarProfile #user .initials {
+    position: relative;
+    top: 25px; /* 25% of parent */
+    font-size: 50px; /* 50% of parent */
+    line-height: 50px; /* 50% of parent */
+    color: #666666;
+    font-family: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;
+    font-weight: bold;
+}
+
+#avatarProfile .score-as-badge {
+    position: absolute;
+    top: -15px;
+    left: 120px;
+}
+#avatarProfile .score {
+    font-size: 24px;
+}
+
+#avatarProfile .label-success {
+    background-color: #5cb85c;
+}
+
+#avatarProfile .btn.btn-circle{
+    background-color: #ffffff;
+    border: 5px solid #3F9F3F;
+    color: #003F5D;
+    padding: 12px 6px;
+}
+
+#avatarProfile .btn.btn-circle-green{
+    border: 5px solid #3F9F3F;
+}
+
+#avatarProfile .btn.btn-circle-blue{
+    border: 5px solid #40ADE0;
+}
+
+#avatarProfile .btn.btn-circle-yellow{
+    border: 5px solid #FCE94C;
+}
+
+#avatarProfile .btn.btn-circle-red{
+    border: 5px solid #FF4D15;
+}
+
+#avatarProfile .btn.btn-circle:hover{
+    background-color: #ffffff;
+}
+
+#avatarProfile .btn-circle {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font: 15px sans-serif;
+    font-weight: 700;
+    line-height: .3;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+#avatarProfile .buttons  {
+    margin: 5px;
+}
+
+.border-circle-green{
+    border: 3px solid rgba(63, 159, 63, 0.5); /* #3f9f3f */
+}
+
+.border-circle-blue{
+    border: 3px solid rgba(64,173,224, 0.5); /*#40ADE0 */
+}
+
+.border-circle-yellow{
+    border: 3px solid rgba(252, 233, 76, 0.5); /*#FCE94C */
+}
+
+.border-circle-red{
+    border: 3px solid rgba(255, 77,21, 0.5); /* #FF4D15 */
+}
+
+#avatarProfile .buttons a {
+    margin: 5px;
+}
+
+.dropdown-menu .fa-0x-plus {
+    margin-left: 2px;
+    font-size: 75%;
+    top: -6px;
+    position: relative;
+}
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+
+#my-shortlist-container .entry{
+    width:410px;
+    margin:50px auto;
+    float:left;
+    border-radius:50%;
+}
+
+#my-shortlist-container .container{
+    width:110px;
+    height:110px;
+    margin:0 0 30px 10px;
+    position:relative;
+    border-radius:60px;
+    background:rgba(255,255,255,.2);
+    box-shadow:3px 3px 5px rgba(0,0,0,.2);
+    transition:all .5s;
+    overflow:hidden;
+
+}
+
+#my-shortlist-container .photo{
+    width:90px;
+    height:90px;
+    margin:8px;
+    border-radius:50%;
+    position:absolute;
+    left:0px;
+    overflow:hidden;
+    border:2px solid white;
+}
+
+#my-shortlist-container .pic{ max-width:100%; }
+
+#my-shortlist-container .button{
+    width:60px;
+    height:60px;
+    position:absolute;
+    right:20px;
+    top:25px;
+    font-size:40px;
+    text-align:center;
+    line-height:60px;
+    border-radius:50%;
+    color:rgba(255,255,255,.8);
+    background:green;
+    background:linear-gradient(bottom,#5ca321,#8ab24f);
+    box-shadow:0 0 0 1px rgba(0,0,0,.2),
+    0 0 0 5px rgba(255,255,255,.1),
+    0 0 0 6px rgba(0,0,0,.2);
+    transition:all .5s;
+    cursor:pointer;
+}
+#my-shortlist-container .button:hover{
+    background:#5ca321;
+    box-shadow:inset 0 1px 5px rgba(0,0,0,.3);
+    text-shadow:0px 0px 5px gray;
+}
+
+#my-shortlist-container .name{
+    height:60%;
+    width:180px;
+    position:absolute;
+    right:80px;
+    padding:20px;
+    font:25px arial;
+    color:white;
+    opacity:0;
+    transition:all .5s .5s;
+    text-shadow:0 0 5px rgba(0,0,0,.5);
+}
+
+#my-shortlist-container .small{ font-size:14px; display:block; margin-top:10px; }
+
+#my-shortlist-container .comment{
+    width:370px;
+    position:relative;
+    padding:15px;
+    font-size:16px;
+    color:rgba(0,0,0,.7);
+    border-radius:10px;
+    background:rgba(255,255,255,.4);
+    box-shadow:3px 3px 5px rgba(0,0,0,.2);
+    opacity:0;
+    transition:all 1s;
+}
+
+#my-shortlist-container .comment:before{
+    content:'';
+    width:0;
+    height:0;
+    position:absolute;
+    bottom:100%;
+    left:2%;
+    border-bottom:15px solid rgba(255,255,255,.4);
+    border-left:50px solid transparent;
+    border-right:50px solid transparent;
+    border-top:15px solid transparent;
+
+}
+
+#my-shortlist-container .container:hover{ height:400px; }
+
+#my-shortlist-container .container:hover .name,.container:hover + .comment{
+    opacity:1;
+}
+
+#my-shortlist-container .avatar {
+    overflow: hidden;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    left: 0px;
+}
+
+#my-shortlist-container .avatar-name {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+    background-color: rgba(81, 79, 80, 0.3);
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.fa-0x-check {
+    margin-left: 3px;
+    font-size: 75%;
+    top: -6px;
+    position: relative;
+}
+
+.compliance-button {
+    float: left;
+}

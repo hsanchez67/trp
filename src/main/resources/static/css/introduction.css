@@ -1,0 +1,428 @@
+img.contact-img {
+    width: 60px;
+    height: 60px;
+}
+
+.panel-body-border {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.panel-body-border-on {
+    border: 2px dashed #666;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #e0e0e0;
+}
+
+.panel-body-border-dropped {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.profile-picture {
+    width: 80px;
+    height: 80px;
+}
+
+#arrow {
+    font-size: 28px;
+    color: #333333;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#confirmationMessage {
+    margin-top: 20px;
+}
+
+.panel-heading {
+    position: relative;
+}
+
+.panel .panel-scroll {
+    max-height: 480px;
+    overflow-y: auto;
+}
+
+.btn-link {
+    color: #337ab7;
+}
+
+.btn-link:hover {
+    color: #666666;
+}
+
+#saved-messages {
+  /*  position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 60px; */
+}
+
+#new-contact {
+    position: absolute;
+    width: 95%;
+    left: 3%;
+    top: 38px;
+    z-index: 1000;
+}
+
+#new-contact-label {
+    position: relative;
+    top: -10px;
+    left: -15px;
+}
+
+#introduction-content .page-header {
+    margin: 10px 0 20px;
+}
+
+.img-avatar {
+    max-width: 40px;
+}
+
+.messageDetails {
+    font-style: italic;
+    font-size: 11px;
+}
+
+.padding-left-30 {
+    padding-left: 30px;
+}
+
+#contact2Panel li {
+    width: 63px;
+    height: 63px;
+    /* margin: 5px;
+    padding: 5px; */
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 35px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    list-style-type: none;
+    list-style-position: inside;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #666;
+    background-color: #fafafa !important;
+    color: #bbb !important;
+}
+
+#contact1Panel li {
+    width: 63px;
+    height: 63px;
+    /* margin: 5px;
+    padding: 5px; */
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 35px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    list-style-type: none;
+    list-style-position: inside;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #666;
+    background-color: #fafafa !important;
+    color: #bbb !important;
+}
+
+.listActive {
+    width: 63px;
+    height: 63px;
+    border: 1px solid #ccc;
+    background-color: #fcfcfc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 35px;
+   /* padding: 0.5em 0 3em 0 !important; */
+}
+
+.placeholderOn {
+    list-style-type: none;
+    text-align: center;
+    font-style: italic;
+    background-color: #fff !important;
+    color: #aaa !important;
+}
+
+.placeholderDropped {
+    list-style-type: none;
+    text-align: center;
+    font-style: italic;
+    border: 2px dashed #fff !important;
+    background-color: #fff !important;
+    color: #aaa !important;
+}
+
+.placeholder {
+    list-style-type: none;
+    text-align: center;
+    font-style: italic;
+    border: 2px dashed #ccc !important;
+    background-color: #fff !important;
+    color: #aaa !important;
+}
+
+.dismiss {
+    float: right;
+    position: relative;
+    top: -8px;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none !important;
+    color: #468847;
+}
+
+.errorMessage {
+    padding: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.alert {
+    padding: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    text-align: left;
+}
+
+.fa-vcard:before {
+    content:'\F007';
+}
+
+.fa-vcard:after {
+    content:'\f0c9';
+    padding-right:0.2em;
+    padding-left:0.1em;
+}
+
+.fa-vcard-bordered {
+    padding: 0.3em 0.2em;
+    display:inline-block;
+    border:2px solid #333333;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.fa-arrow-right-top {
+    position: relative;
+    top: -7px;
+}
+
+.fa-envelope-top {
+    position: relative;
+    top: -3px;
+}
+
+/* email templates */
+#callout-primary div.primary {
+    background: #888;
+    border: 1px solid #444444;
+    color: #fff;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#callout-primary .meet {
+    font-weight: 500;
+}
+
+#message-body #editor2 {
+    margin-bottom: 10px;
+}
+
+#message-body p {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+}
+
+#message-body p.lead {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+#message-body p.header {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#message-body .disclaimer {
+    font-size: 11px;
+    color: #8c8c8c;
+}
+
+#callout-primary .thumbnail {
+    margin-top: 10px;
+    border: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    background-color: transparent;
+}
+
+#callout-primary .thumbnail2 {
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    background-color: transparent;
+}
+
+#callout-primary .arrow {
+    width:66px;
+    margin: 0 auto;
+    padding-top: 20px
+}
+
+#callout-primary table.text-center,
+#callout-primary td.text-center,
+#callout-primary h1.text-center,
+#callout-primary h2.text-center,
+#callout-primary h3.text-center,
+#callout-primary h4.text-center,
+#callout-primary h5.text-center,
+#callout-primary h6.text-center,
+#callout-primary p.text-center,
+#callout-primary span.text-center {
+    text-align: center;
+}
+
+#callout-primary .first {
+    padding-left: 16px;
+}
+#callout-primary .last {
+    padding-left: 16px;
+}
+
+#callout-primary .links {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#callout-secondary div.secondary {
+    background: #f2f2f2;
+    border: 1px solid #fff;
+    color: #5A5A5A;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+}
+
+#callout-secondary p {
+    margin: 0 auto;
+    padding: 3px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#subject-line p {
+    margin: 0 auto;
+    padding: 3px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#includeMessage.editable {
+    border: 2px dotted #cccccc;
+}
+
+#message-body .panel-heading-dark {
+    background: #8a8a8a;
+    color: #ffffff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    min-height: 68px;
+}
+
+.file-preview-thumbnails .kv-file-remove {
+    display: none;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    /* margin-bottom: 10px; */
+    color: rgba(115, 115, 80, 0.57);
+    font-size: 90%;
+}
+
+#messageSubject {
+    margin-top: 10px;
+}
+
+.strong500 {
+    font-weight: 500;
+}
+
+.top10 {
+    padding-top: 10px;
+}
+
+.lead {
+    font-size: 21px;
+}
+
+.bottom10 {
+    margin-bottom: 10px;
+}
+
+#profileButton.button {
+    width: auto !important;
+    margin: 0 0 16px 0;
+    Margin: 0 0 16px 0; }
+#profileButton.button  {
+    text-align: center;
+    color: #fefefe;
+    background: #337ab7;
+    border: 2px solid #337ab7; }
+#profileButton.button .radius {
+    border-radius: 3px; }
+#profileButton.button .rounded {
+    border-radius: 500px; }
+#profileButton.button  {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fefefe;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px 8px 16px;
+    border: 0px solid #337ab7;
+    border-radius: 3px; }
+#profileButton a {
+    color: #fff;
+}
+
+#inbox-panel #reason-note {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#contact1EditProfession {
+    padding-top: 10px;
+}
+
+#search-panel .task-thumb img {
+    width: 75px;
+    height: 75px;
+}

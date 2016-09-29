@@ -1,0 +1,39 @@
+/*
+Theme Name: Rise Lite
+Description: Rise Lite is a free one page Wordpress theme. It's perfect for web agency business,corporate business,personal and parallax business portfolio, photography sites and freelancer.Is built on BootStrap with parallax support, is responsive, clean, modern, flat and minimal. Rise Lite is ecommerce (WooCommerce) Compatible, WPML, RTL, Retina-Ready, SEO Friendly and with parallax, full screen image is one of the best business themes.
+Author: MachoThemes
+Template: zerif-lite
+Version: 1.0.14
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, black, one-column, responsive-layout, custom-background, custom-header, custom-menu, featured-images, threaded-comments, translation-ready,photoblogging
+Text Domain: rise-lite
+*/
+/*
+.intro-text {
+    font-size: 40px;
+    line-height: 1.2em;
+}
+*/
+.focus-box .service-icon .pixeden {
+    border-radius: 0% !important;
+    background-size: contain !important;
+}
+
+.team-member .details {
+    text-align: left;
+    font-size: 14px;
+    line-height: 2em;
+    letter-spacing: 1px;
+    position: absolute;
+    padding: 15px;
+    top: -200px;
+    left: 0;
+    width: 100%;
+    height: 307px;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}

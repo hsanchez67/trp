@@ -1,0 +1,144 @@
+#profile-panel .panel-body #user img.img-user {
+    border: 5px solid #bdc3c7;
+    width: 150px;
+    height: 150px;
+}
+
+#profile-panel .panel-body .panel-default {
+    border: 2px solid #fff;
+}
+
+#profile-panel .panel-default .panel-body {
+    background-color: #ecf0f1;
+    text-align: left;
+}
+
+#profile-panel .panel-body #user p {
+    margin-top: 20px;
+    position: relative;
+}
+
+#profile-panel .panel-body .sosmed-user i.fa {
+    border: 2px solid #95a5a6;
+    color: #95a5a6;
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    margin: 3px;
+}
+
+#profile-panel .panel-body .sosmed-user i.fa:hover{
+    background-color: #95a5a6;
+    color: #fff;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#profile-panel .profile-bits li {
+    font-weight: 400;
+}
+
+#profile-panel .profile-bits a.editable-enabled {
+    color: #337ab7 !important;
+}
+
+#profile-panel p.score-label > img {
+    border: none;
+    width: 55px;
+}
+
+#profile-panel h4, h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#profile-panel p.score-label span {
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+}
+
+#profile-panel .panel-title {
+    font-size: 20px;
+}
+
+#profile-panel #accordion {
+    margin-top: 20px;
+}
+
+.canvas-score {
+    position: relative;
+    width:180px;
+    height:180px;
+    margin: 0 auto;
+}
+
+.canvas-score-small {
+    position: relative;
+    width:80px;
+    height:80px;
+    margin: 0 auto;
+}
+
+.canvas-score-text {
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.canvas-score-doughnut {
+    position: absolute;
+    left: 0px;
+    top: 0px;"
+}
+
+#panel-compact .profile-body-left .profile-body-right {
+    padding: 15px;
+}
+
+#panel-compact .canvas-score {
+    position: relative;
+    width: 120px;
+    height:120px;
+    margin: 0 auto;
+}
+
+#panel-compact .canvas-score-doughnut {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.btn.btn-circle{
+    /*  border-color: #5CB85C;
+      background-color: #ffffff;
+      border: 6px solid #5CB85C;
+      color: #4D4D4D; */
+
+    border-color: #5CB85C;
+    background-color: #ffffff;
+    border: 21px solid #5CB85C;
+    color: #4D4D4D;
+}
+
+.btn.btn-circle:hover{
+    background-color: #ffffff;
+}
+
+.btn-circle {
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 43px;
+    line-height: 1.82;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}

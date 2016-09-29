@@ -1,0 +1,129 @@
+#inbox-content-row {
+    margin-right: -15px;
+    margin-left: 0px;
+}
+
+#inbox-panel table td.notification-time {
+    font-weight: 500;
+}
+
+#inbox-panel table tr>td.vert-align{
+    vertical-align: middle;
+}
+
+#inbox-panel td.notification-message {
+    text-align: left;
+    cursor: pointer;
+}
+
+#inbox-panel .panel-body .panel-default {
+    border: 2px solid #fff;
+}
+
+#inbox-panel .panel-default .panel-body {
+    background-color: #ecf0f1;
+}
+
+#inbox-panel .panel-body #user p {
+    margin-top: 20px;
+    position: relative;
+}
+
+#inbox-panel table tr.on {
+    font-style: normal;
+    font-weight: 500;
+}
+
+#inbox-panel table tr.off {
+    font-style: italic;
+    font-weight: 400;
+}
+
+#inbox-panel span.on {
+    font-style: normal;
+    font-weight: 600;
+    font-size: larger;
+}
+
+#inbox-panel span.off {
+    font-style: italic;
+    font-weight: 400;
+}
+
+#inbox-panel .message-timestamp {
+    font-style: italic;
+    font-weight: 500;
+    float: right;
+    font-size: 11px;
+    max-height: 12px;
+    text-align: right;
+}
+
+#inbox-panel .resultInstant {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 99%;
+    margin: 0 auto;
+}
+
+#inbox-panel .resultInstantGrey {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 99%;
+    margin: 0 auto;
+    background-color: #dddddd;
+}
+
+#inbox-panel .no-entries {
+    margin: 20px;
+}
+
+#inbox-panel .task-thumb img {
+    width: 80px;
+    height: 80px;
+}
+
+#inbox-panel .task-thumb .avatar-circle {
+    width: 80px;
+    height: 80px;
+}
+#inbox-panel .task-thumb .initials {
+    position: relative;
+    top: 21px;
+    font-size: 35px;
+}
+
+#inbox-panel .top10 {
+    margin-top: 10px;
+}
+
+#inbox-panel button {
+    min-width: 85px;
+    margin: 3px;
+}
+
+#inbox-panel .thumb-up {
+    top: -10px;
+}
+
+#inbox-panel .input-type-logo {
+    position: absolute;
+    top: -6px;
+    left: 9px;
+}
+
+#inbox-panel .input-type-clip {
+    margin-right: 10px;
+}
+
+#inbox-panel .input-type-logo-reply {
+    position: absolute;
+    top: 10px;
+    left: 9px;
+}
+
+#inbox-panel .not-read-text-primary {
+    color: #0089ff;
+}

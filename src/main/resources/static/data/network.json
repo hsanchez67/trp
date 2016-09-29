@@ -1,0 +1,266 @@
+{"nodes":[
+{
+"id": 1,
+"name": "Don Yoakum",
+"img": "../images/user-profile-don.png",
+"children": [
+{
+"id": 2,
+"name": "Bobby Flay",
+"img": "../images/user-profile-bobby.png",
+"children": [
+{
+"id": 3,
+"name": "Adam West",
+"img": "../images/user-profile-image.png",
+"children": [
+{
+"id": 4,
+"name": "Austin Powers",
+"img": "../images/user-profile-image-1.png",
+"size": 3938
+}
+,
+{
+"id" : 5,
+"name": "James Dean",
+"img": "../images/user-profile-image-2.png",
+"size": 3812
+}
+,
+{
+"id": 6,
+"name": "Angela Ashes",
+"img": "../images/user-profile-image-3.png",
+"size": 6714
+}
+,
+{
+"id": 8,
+"name": "Tito Mendez",
+"img": "../images/user-profile-image-4.png",
+"size": 743
+}
+]
+},{
+"id": 9,
+"name": "Juan Perez",
+"img": "../images/user-profile-image-5.png",
+"children": [
+{
+"name": "Stephanie Sims",
+"img": "../images/user-profile-image-1.png",
+"size": 3534
+}
+,
+{
+"id": 10,
+"name": "LinkDistance",
+"size": 5731
+}
+,
+{
+"id" : 11,
+"name": "MaxFlowMinCut",
+"size": 7840
+},{
+"id": 12,
+"name": "ShortestPaths",
+"size": 5914
+}
+,
+{
+"id": 13,
+"name": "SpanningTree",
+"size": 3416
+}
+]
+},{
+"id": 14,
+"name": "optimization",
+"children": [
+{
+"name": "AspectRatioBanker",
+"size": 7074
+}
+]
+}
+]
+},{
+"id": 15,
+"name": "animate",
+"children": [
+{
+"name": "interpolate",
+"children": [
+{
+"name": "ArrayInterpolator",
+"size": 1983
+}
+, {
+"id": 16,
+"name": "ColorInterpolator",
+"size": 2047
+}
+,
+{
+"id": 17,
+"name": "DateInterpolator",
+"size": 1375
+}
+,
+{
+"id" : 18,
+"name": "Interpolator",
+"size": 8746
+},{
+"id": 19,
+"name": "MatrixInterpolator",
+"size": 2202
+}
+,
+{
+"id": 20,
+"name": "NumberInterpolator",
+"size": 1382
+}
+, {
+"id": 21,
+"name": "ObjectInterpolator",
+"size": 1629
+}
+,
+{
+"id": 22,
+"name": "PointInterpolator",
+"size": 1675
+}
+,
+{
+"id" : 23,
+"name": "RectangleInterpolator",
+"size": 2042
+}
+]
+},{
+"id": 24,
+"name": "ISchedulable",
+"size": 1041
+}
+,
+{
+"id": 25,
+"name": "Parallel",
+"size": 5176
+}
+, {
+"id": 26,
+"name": "Pause",
+"size": 449
+}
+,
+{
+"id": 27,
+"name": "Scheduler",
+"size": 5593
+}
+,
+{
+"id" : 28,
+"name": "Sequence",
+"size": 5534
+},{
+"id": 29,
+"name": "Transition",
+"size": 9201
+}
+,
+{
+"id": 30,
+"name": "Transitioner",
+"size": 19975
+}
+, {
+"id": 31,
+"name": "TransitionEvent",
+"size": 1116
+}
+,
+{
+"id": 32,
+"name": "Tween",
+"size": 6006
+}
+]
+},{
+"id": 33,
+"name": "data",
+"children": [
+{
+"id": 34,
+"name": "converters",
+"children": [
+{
+"id": 35,
+"name": "Converters",
+"size": 721
+}
+,
+{
+"id": 36,
+"name": "DelimitedTextConverter",
+"size": 4294
+}
+,
+{
+"id" : 37,
+"name": "GraphMLConverter",
+"size": 9800
+},{
+"id": 38,
+"name": "IDataConverter",
+"size": 1314
+}
+,
+{
+"id": 39,
+"name": "JSONConverter",
+"size": 2220
+}
+]
+},{
+"id": 40,
+"name": "DataField",
+"size": 1759
+}
+,
+{
+"id": 41,
+"name": "DataSchema",
+"size": 2165
+}
+, {
+"id": 42,
+"name": "DataSet",
+"size": 586
+}
+,
+{
+"id": 43,
+"name": "DataSource",
+"size": 3331
+}
+,
+{
+"id" : 44,
+"name": "DataTable",
+"size": 772
+},{
+"id": 45,
+"name": "DataUtil",
+"size": 3322
+}
+]
+}
+]
+}]}

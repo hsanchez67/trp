@@ -1,0 +1,34 @@
+table td.notification-time {
+    font-weight: 500;
+    min-width: 100px;
+}
+
+table td.notification-message span {
+    text-align: left;
+    font-size: 13px;
+}
+
+table td.notification-message a {
+    color: #40ADE0;
+    text-decoration: none;
+}
+
+table td.notification-message a.hover {
+    color: #00acfc;
+    text-decoration: none;
+}
+
+#notification-panel .panel-body .panel-default {
+    border: 2px solid #fff;
+}
+
+#notification-panel .panel-default .panel-body {
+    background-color: #ecf0f1;
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+#notification-panel .panel-body #user p {
+    margin-top: 20px;
+    position: relative;
+}

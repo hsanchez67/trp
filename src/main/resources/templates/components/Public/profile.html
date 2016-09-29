@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <title>Latch</title>
+    <script th:src="@{/js/react.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/react-dom.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/jquery-2.1.4.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/jquery-ui.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/bootstrap-theme.min.css}" rel="stylesheet" media="screen" />
+    <script th:src="@{/js/bootstrap.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/js/fancyBox/source/jquery.fancybox.css}" rel="stylesheet" />
+    <script th:src="@{/js/fancyBox/source/jquery.fancybox.pack.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/Chart.min.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/classnames/index.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/marked.js}"  charset="utf-8"></script>
+    <link th:href="@{/css/fontello/css/fontello.css}" rel="stylesheet" media="screen" />
+    <script th:src="@{//use.fontawesome.com/e6c8d477bf.js}"></script>
+    <link th:href="@{/css/bootstrap-social.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/App.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/Header.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/index.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/profile.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/publicProfile.css}" rel="stylesheet" media="screen" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4poR9Y3Im0CW7lfgjK1dANMEYF5n74yY&amp;signed_in=true&amp;libraries=places"></script>
+    <script th:src="@{/js/GoogleMapReact.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/bootbox.min.js}"  charset="utf-8"></script>
+</head>
+<body>
+<div>
+    <div id="content"></div>
+    <input type="hidden" th:value="${currentUser}" id="userid"/>
+    <input type="hidden" th:value="${profile}" id="profileid"/>
+    <input type="hidden" th:value="${appId}" id="appId"/>
+    <script th:src="@{/js/components-lib/logo.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Public/profileBanner.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Header/search.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Public/profileHeaderIn.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Public/profileHeader.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Profile/reviewStars.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Profile/scoreChart.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Profile/facebook.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Profile/googleplus.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Profile/linkedin.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Profile/zillow.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Profile/instagram.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Public/profileMap.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Profile/reviewStars.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Public/profileBitsPublic.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Public/profileBody.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Modals/remoteModal.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Public/profile.js}" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".fancybox").fancybox();
+            $(".various").fancybox({
+                maxWidth	: 800,
+                maxHeight	: 600,
+                fitToView	: false,
+                width		: '70%',
+                height		: '70%',
+                autoSize	: false,
+                closeClick	: false,
+                openEffect	: 'none',
+                closeEffect	: 'none'
+            });
+        });
+    </script>
+</div>
+</body>
+</html>

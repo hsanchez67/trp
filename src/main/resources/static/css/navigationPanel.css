@@ -1,0 +1,61 @@
+#navigation-panel .green {
+    background:  #57B055;
+}
+
+#navigation-panel .purple {
+    background:  #8c30bb;
+}
+
+#navigation-panel .blue {
+    background:  #40ADE0;
+}
+
+#navigation-panel .yellow {
+    background:  #FCE94C;
+}
+
+#navigation-panel .red {
+    background:  #FF4D15;
+}
+
+.panel-row {
+    border-top: 1px solid #cccccc;
+    border-collapse: collapse;
+}
+
+.navigation-symbol {
+    color: #ffffff;
+    font-size: 35px;
+    /*-webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-border: 2px dotted #fff;
+    -moz-border: 2px dotted #fff;
+    -ms-border: 2px dotted #fff;
+    -o-border: 2px dotted #fff;
+    border: 2px dotted #4D4D4D;*/
+    width: 65px;
+    height: 65px;
+    padding-top: 5px;
+    text-shadow: 3px 3px 3px #000;
+}
+
+.navigation-text {
+    text-align: left;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 16px;
+    float: left;
+}
+
+#navigation-panel .panel-body .panel-default {
+    border: 2px solid #fff;
+}
+
+#navigation-panel .panel-default .panel-body {
+    background-color: #999999;
+    padding: 0;
+}

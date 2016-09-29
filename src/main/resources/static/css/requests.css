@@ -1,0 +1,118 @@
+#inbox-content-row {
+    margin-right: -15px;
+    margin-left: 0px;
+}
+
+#inbox-panel table td.notification-time {
+    font-weight: 500;
+}
+
+#inbox-panel table tr>td.vert-align{
+    vertical-align: middle;
+}
+
+#inbox-panel td.notification-message {
+    text-align: left;
+    cursor: pointer;
+}
+
+#inbox-panel table tr.on {
+    font-style: normal;
+    font-weight: 500;
+}
+
+#inbox-panel table tr.off {
+    font-style: italic;
+    font-weight: 400;
+}
+
+#inbox-panel .avatar-pull-left {
+    position: relative;
+    right: 10px;
+}
+
+#inbox-panel .message-timestamp {
+    font-style: italic;
+    font-weight: 500;
+    float: right;
+    font-size: 11px;
+    max-height: 12px;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+#inbox-panel #reason-note {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#inbox-panel .input-type-logo {
+    float: left;
+}
+
+#inbox-panel .panel-white {
+    background-color: #ffffff;
+}
+
+#inbox-panel .task-thumb img {
+    width: 80px;
+    height: 80px;
+}
+
+#inbox-panel p {
+    margin: 0 10px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#inbox-panel th {
+    Margin: 0;
+    color: #0a0a0a;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    margin: 0;
+    padding: 0 10px;
+    text-align: left;
+}
+
+#inbox-panel div.vert-align{
+    top: 20px;
+}
+
+#inbox-panel .subject-text-div {
+    padding-bottom: 10px;
+}
+
+#inbox-panel .subject-line-label {
+    font-weight: 500;
+}
+
+#inbox-panel .no-entries {
+    margin: 20px;
+}
+
+#inbox-panel .subjectText {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+#inbox-panel .mainText {
+    padding-bottom: 10px;
+}
+
+#inbox-panel .headerSubjectText {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#inbox-panel .latched-icon {
+    height: 25px;
+    display: block;
+}
+
+#inbox-panel .attachment-icon {
+    width: 50px;
+}
+

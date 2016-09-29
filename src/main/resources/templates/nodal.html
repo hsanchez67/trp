@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8" />
+    <title>Network Graph</title>
+    <script th:src="@{/js/d3.min.js}"  charset="utf-8"></script>
+    <link type="text/css" rel="stylesheet" th:href="@{/css/nodal.css}"  />
+</head>
+<body>
+<!--@thymesVar id="message" type=""-->
+<div style="color: steelblue; margin:20px; font-family: Arial;"><h2 th:text="${message}"></h2></div>
+<script type="application/javascript" th:src="@{/js/nodal.js}" ></script>
+</body>
+</html>

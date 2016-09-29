@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="zillow" unicode="&#xe800;" d="m126 605c131 104 265 198 293 198 13 0 95-52 186-115-85-7-352-46-479-83z m-183-441c-18-48-32-88-37-107 223 67 427 115 671 125 2 3 26 64 51 129-201-4-515-76-685-147z m98 233c-10-16-50-113-84-202 70 64 359 319 453 396-154-29-385-92-434-115-44-39-81-74-105-102 31 5 117 17 170 23z m218-63c99 38 276 65 405 71 15 39 26 68 27 71 31 4 142 10 185 10-41 38-147 117-247 186-96-71-302-267-370-338z" horiz-adv-x="773" />
+</font>
+</defs>
+</svg>

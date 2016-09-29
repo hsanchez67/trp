@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <title>Latch</title>
+    <script th:src="@{/js/react.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/react-dom.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/jquery-2.1.4.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/jquery-ui.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/js/fancyBox/source/jquery.fancybox.css}" rel="stylesheet" />
+    <script th:src="@{/js/fancyBox/source/jquery.fancybox.pack.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/fancyBox/source/helpers/jquery.fancybox-media.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/jquery-timepicker/jquery-ui-timepicker-addon.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/js/jquery-timepicker/jquery-ui-timepicker-addon.min.css}" rel="stylesheet" />
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet" />
+    <script th:src="@{/js/bootstrap.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/js/bootstrap3-editable-1.5.1/bootstrap3-editable/css/bootstrap-editable.css}" rel="stylesheet" media="screen" />
+    <script th:src="@{/js/bootstrap3-editable-1.5.1/bootstrap3-editable/js/bootstrap-editable.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/js/bootstrap3-editable-1.5.1/inputs-ext/address/address.css}" rel="stylesheet" media="screen" />
+    <script th:src="@{/js/bootstrap3-editable-1.5.1/inputs-ext/address/address.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/bootstrap-paginator.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/classnames/index.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/marked.js}"  charset="utf-8"></script>
+    <link th:href="@{/css/fontello/css/fontello.css}" rel="stylesheet" media="screen" />
+    <script th:src="@{//use.fontawesome.com/e6c8d477bf.js}"></script>
+    <link th:href="@{/css/bootstrap-social.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/Header.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/Footer.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/Navigation.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/avatar.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/index.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/history.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/notificationPanel.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/myShortListPanel.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/pagination.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/App.css}" rel="stylesheet" media="screen" />
+    <script th:src="@{/js/bootbox.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/moment.js}"  charset="utf-8"></script>
+</head>
+<body>
+<div>
+    <div id="content"></div>
+    <div id="fb-root"></div>
+    <input type="hidden" th:value="${user?.id}" id="id"/>
+    <input type="hidden" th:value="${profile}" id="profileid"/>
+    <script th:src="@{/js/components-lib/logo.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Header/search.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Header/header-responsive-in.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Header/header-menu.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Banner/banner.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Footer/footer.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Profile/profileBits.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/MyShortList/myModal.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/MyShortList/avatar.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/MyShortList/myShortListPanel.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Notifications/notificationsPanel.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/History/historyContent.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/History/history.js}"  type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (/history/.test(window.location.href)) {
+                $('#nav-home').attr('class', ' ');
+                $('#nav-hidden-home').attr('class', ' ');
+                $('#nav-videos').attr('class', ' ');
+                $('#nav-hidden-videos').attr('class', ' ');
+                $('#nav-search').attr('class', ' ');
+                $('#nav-hidden-search').attr('class', ' ');
+                $('#nav-introduction').attr('class', ' ');
+                $('#nav-hidden-introduction').attr('class', ' ');
+                $('#nav-hidden-myshortlist').attr('class', ' ');
+                $('#nav-myshortlist').attr('class', ' ');
+                $('#nav-hidden-messages').attr('class', ' ');
+                $('#nav-messages').attr('class', ' ');
+                $('#nav-hidden-reviews').attr('class', ' ');
+                $('#nav-reviews').attr('class', ' ');
+                $('#nav-analytics').attr('class', ' ');
+                $('#nav-hidden-analytics').attr('class', ' ');
+                $("#nav-hidden-myq").attr('class', ' ');
+                $("#nav-myq").attr('class', ' ');
+            }
+
+            $(".fancybox").fancybox();
+            $(".various").fancybox({
+                maxWidth	: 800,
+                maxHeight	: 600,
+                fitToView	: false,
+                width		: '70%',
+                height		: '70%',
+                autoSize	: false,
+                closeClick	: false,
+                openEffect	: 'none',
+                closeEffect	: 'none'
+            });
+        });
+    </script>
+</div>
+
+</body>
+</html>

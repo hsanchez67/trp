@@ -1,0 +1,52 @@
+body.custom-background {
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-image: url("../images/latch/user-profile-image-10.jpg");
+    background-attachment: scroll;
+}
+
+.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+
+.symbol, .value {
+    display: inline-block;
+    text-align: center;
+}
+
+.symbol {
+    width: 50%;
+    padding: 17px 15px;
+    -webkit-border-radius: 4px 0px 0px 4px;
+    -moz-border-radius: 4px 0px 0px 4px;
+    -ms-border-radius: 4px 0px 0px 4px;
+    -o-border-radius: 4px 0px 0px 4px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.symbol i {
+    color: #ffffff;
+    font-size: 75px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    width: 85px;
+    height: 85px;
+    text-shadow: 4px 4px 4px #000;
+}
+
+.green {
+    background: #57B055;
+}
+
+.blue {
+    background:  #40ADE0;
+}
+
+.yellow {
+    background:  #FCE94C;
+}
+
+.light-gray {
+    background: #E5E5E5;
+}

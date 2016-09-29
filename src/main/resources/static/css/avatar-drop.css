@@ -1,0 +1,42 @@
+#settings-main-panel.droppable .profile-avatar-wrap {
+    border: 5px dashed lightblue;
+    z-index: 9999;
+}
+
+.page-wrap {
+    width: 960px;
+    margin: 100px auto;
+}
+
+
+#profile-photo-crop .profile {
+    width: 500px;
+}
+#profile-photo-crop .profile-avatar-wrap {
+    width: 33.33%;
+    float: left;
+    margin: 0 20px 5px 0;
+    position: relative;
+    pointer-events: none;
+    border: 5px solid transparent;
+}
+#profile-photo-crop .profile-avatar-wrap:after {
+    /* Drag Prevention */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#profile-photo-crop .profile-avatar-wrap img {
+    width: 100%;
+    display: block;
+}
+#profile-photo-crop .location {
+    text-transform: uppercase;
+    color: #999;
+    letter-spacing: 1px;
+    margin: 0 0 10px 0;
+    font-size: 90%;
+}

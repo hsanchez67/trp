@@ -1,0 +1,27 @@
+#my-groups-panel .panel-body .panel-default {
+    border: 2px solid #fff;
+}
+
+#my-groups-panel .panel-default .panel-body {
+    background-color: #ecf0f1;
+}
+
+#my-groups-panel .panel-body #user p {
+    margin-top: 20px;
+    position: relative;
+}
+
+#my-groups-panel ul {
+    list-style-type: none;
+}
+
+#my-groups-panel .panel-body-border-on {
+    border: 2px dashed #666;
+    border-radius: 10px;
+    /*  margin: 10px;
+      background-color: #e0e0e0; */
+}
+
+#my-groups-panel .delete-from-group-icon-on {
+    font-size: 140%;
+}

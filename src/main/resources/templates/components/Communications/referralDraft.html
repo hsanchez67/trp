@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <title>Latch</title>
+    <script th:src="@{/js/react-0.14.2.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/react-dom-0.14.2.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/jquery-2.1.4.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/jquery-ui.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/js/fancyBox/source/jquery.fancybox.css}" rel="stylesheet" />
+    <script th:src="@{/js/fancyBox/source/jquery.fancybox.pack.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/fancyBox/source/helpers/jquery.fancybox-media.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/select2/js/select2.min.js}"  type="text/javascript"></script>
+    <link th:href="@{/js/select2/css/select2.min.css}" rel="stylesheet" />
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet" />
+    <script th:src="@{/js/bootstrap.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/css/bootstrap-switch.min.css}" rel="stylesheet" />
+    <script th:src="@{/js/bootstrap-switch.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/marked.js}"  charset="utf-8"></script>
+    <link th:href="@{/js/bootstrap3-editable-1.5.1/bootstrap3-editable/css/bootstrap-editable.css}" rel="stylesheet" media="screen" />
+    <script th:src="@{/js/bootstrap3-editable-1.5.1/bootstrap3-editable/js/bootstrap-editable.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/js/bootstrap3-editable-1.5.1/inputs-ext/address/address.css}" rel="stylesheet" media="screen" />
+    <script th:src="@{/js/bootstrap3-editable-1.5.1/inputs-ext/address/address.js}"  charset="utf-8"></script>
+    <link th:href="@{/js/bootstrap-fileinput/css/fileinput.min.css}" rel="stylesheet" media="all" />
+    <script th:src="@{/js/bootstrap-fileinput/js/fileinput.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/css/bootstrap-switch.min.css}" rel="stylesheet" />
+    <script th:src="@{/js/bootstrap-switch.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/classnames/index.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/marked.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/ckeditor-basic/ckeditor.js}"  charset="utf-8"></script>
+    <script th:src="@{//use.fontawesome.com/e6c8d477bf.js}"></script>
+    <link th:href="@{/css/Header.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/Footer.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/Navigation.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/avatar.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/index.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/myShortListPanel.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/navigationPanel.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/App.css}" rel="stylesheet" media="screen" />
+    <script th:src="@{/js/Chart.min.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/bootstrap-paginator.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/css/pagination.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/search.css}" rel="stylesheet" media="screen" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4poR9Y3Im0CW7lfgjK1dANMEYF5n74yY&amp;signed_in=true&amp;libraries=places"></script>
+    <link th:href="@{/css/introduction.css}" rel="stylesheet" media="screen" />
+    <script th:src="@{/js/bootbox.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/moment.js}"  charset="utf-8"></script>
+</head>
+<body>
+<div>
+    <div id="content"></div>
+    <input type="hidden" th:value="${user?.id}" id="id"/>
+    <input type="hidden" th:value="${commId}" id="commId"/>
+    <script th:src="@{/js/components-lib/logo.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Header/search.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Header/header-responsive-in.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Header/header-menu.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Banner/banner.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Footer/footer.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Profile/profileBits.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/MyShortList/myModal.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/MyShortList/avatar.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/MyShortList/myShortListPanel.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Navigation/navigationPanel.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Emails/emails.min.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Search/scoreChartSearch.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Search/advanceSearchModal.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Modals/confirmationModal.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Communications/addNewContact.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Referral/referralDraftContent.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Referral/referralDraft.js}" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (/referralDraft/.test(window.location.href)) {
+                $("#nav-introduction").attr('class', ' ');
+                $("#nav-hidden-introduction").attr('class', ' ');
+                $("#nav-home").attr('class', ' ');
+                $("#nav-hidden-home").attr('class', ' ');
+                $("#nav-hidden-myshortlist").attr('class', ' ');
+                $("#nav-myshortlist").attr('class', ' ');
+                $("#nav-hidden-messages").attr('class', ' ');
+                $("#nav-messages").attr('class', ' ');
+                $("#nav-hidden-myq").attr('class', ' ');
+                $("#nav-myq").attr('class', ' ');
+                $("#nav-hidden-reviews").attr('class', ' ');
+                $("#nav-reviews").attr('class', ' ');
+                $("#nav-analytics").attr('class', ' ');
+                $("#nav-hidden-analytics").attr('class', ' ');
+            }
+
+            $(".fancybox").fancybox();
+            $(".various").fancybox({
+                maxWidth	: 800,
+                maxHeight	: 600,
+                fitToView	: false,
+                width		: '70%',
+                height		: '70%',
+                autoSize	: false,
+                closeClick	: false,
+                openEffect	: 'none',
+                closeEffect	: 'none'
+            });
+        });
+    </script>
+</div>
+
+</body>
+</html>

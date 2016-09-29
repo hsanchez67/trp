@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <title>Latch</title>
+    <script th:src="@{/js/react.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/react-dom.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/jquery-2.1.4.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/jquery-ui.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/js/fancyBox/source/jquery.fancybox.css}" rel="stylesheet" />
+    <script th:src="@{/js/fancyBox/source/jquery.fancybox.pack.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/fancyBox/source/helpers/jquery.fancybox-media.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/jquery-timepicker/jquery-ui-timepicker-addon.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/js/jquery-timepicker/jquery-ui-timepicker-addon.min.css}" rel="stylesheet" />
+    <script th:src="@{/js/pwstrength.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/bootstrap.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet" media="screen" />
+    <script th:src="@{/js/canvas-to-blob.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/js/bootstrap-fileinput/css/fileinput.min.css}" rel="stylesheet" media="all" />
+    <script th:src="@{/js/bootstrap-fileinput/js/fileinput.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/css/bootstrap-switch.min.css}" rel="stylesheet" />
+    <script th:src="@{/js/bootstrap-switch.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/papaparse.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/moment.min.js}"  charset="utf-8"></script>
+    <link th:href="@{/css/fontello/css/fontello.css}" rel="stylesheet" media="screen" />
+    <script th:src="@{/js/classnames/index.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/ckeditor-basic/ckeditor.js}"  charset="utf-8"></script>
+    <script th:src="@{//use.fontawesome.com/e6c8d477bf.js}"></script>
+    <link th:href="@{/css/bootstrap-social.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/js/bootstrap3-editable-1.5.1/bootstrap3-editable/css/bootstrap-editable.css}" rel="stylesheet" media="screen" />
+    <script th:src="@{/js/bootstrap3-editable-1.5.1/bootstrap3-editable/js/bootstrap-editable.min.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/moment.js}"  charset="utf-8"></script>
+    <link th:href="@{/css/Header.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/Footer.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/Navigation.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/settings.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/App.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/index.css}" rel="stylesheet" media="screen" />
+    <script th:src="@{/js/croppie.js}"  charset="utf-8"></script>
+    <link th:href="@{/css/croppie.css}" rel="stylesheet" media="screen" />
+    <link th:href="@{/css/avatar-drop.css}" rel="stylesheet" media="screen" />
+    <script th:src="@{/js/valib.js}"  charset="utf-8"></script>
+    <script th:src="@{/js/bootbox.min.js}"  charset="utf-8"></script>
+    <script type="text/javascript">
+        // Enter a client ID for a web application from the Google Developer Console.
+        // The provided clientId will only work if the sample is run directly from
+        // https://google-api-javascript-client.googlecode.com/hg/samples/authSample.html
+        // In your Developer Console project, add a JavaScript origin that corresponds to the domain
+        // where you will be running the script.
+        var clientId = '190683963032-ncard3uj8e292earj6sus7vo0qoejvi4.apps.googleusercontent.com';
+        // Enter the API key from the Google Develoepr Console - to handle any unauthenticated
+        // requests in the code.
+        // The provided key works for this sample only when run from
+        // https://google-api-javascript-client.googlecode.com/hg/samples/authSample.html
+        // To use in your own application, replace this API key with your own.
+        var apiKey = 'AIzaSyA8s1miOTD9ga5NJy8_KSwpMQZMqXVcSL8';
+        // To enter one or more authentication scopes, refer to the documentation for the API.
+        var scopes = 'https://www.googleapis.com/auth/contacts.readonly';
+        // Use a button to handle authentication the first time.
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8s1miOTD9ga5NJy8_KSwpMQZMqXVcSL8&amp;signed_in=true&amp;libraries=places"></script>
+</head>
+<body>
+<div>
+    <div id="content"></div>
+    <input type="hidden" th:value="${user?.id}" id="id"/>
+    <script th:src="@{/js/components-lib/logo.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Header/search.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Header/header-responsive-in.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Header/header-menu.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Banner/banner.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Footer/footer.js}" type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Settings/addressForm.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Settings/professionalForm.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Settings/facebookSettings.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Settings/zillowSettings.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Settings/linkedInSettings.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Settings/googlePlusSettings.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Settings/instagramSettings.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Settings/socialConnect.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Settings/socialNetworks.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Settings/importsSearch.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Settings/expandYourNetwork.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Settings/socialInviter.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Settings/newContactsModal.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/components-lib/Settings/settings.js}"  type="text/javascript"></script>
+    <script th:src="@{/js/contactimporter.js}"  type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (/settings/.test(window.location.href)) {
+                $('#nav-hidden-settings').attr('class', ' ');
+                $('#nav-settings').attr('class', ' ');
+                $('#nav-home').attr('class', ' ');
+                $('#nav-hidden-home').attr('class', ' ');
+                $('#nav-search').attr('class', ' ');
+                $('#nav-hidden-search').attr('class', ' ');
+                $('#nav-videos').attr('class', ' ');
+                $('#nav-hidden-videos').attr('class', ' ');
+                $('#nav-introduction').attr('class', ' ');
+                $('#nav-hidden-introduction').attr('class', ' ');
+                $('#nav-hidden-myshortlist').attr('class', ' ');
+                $('#nav-myshortlist').attr('class', ' ');
+                $('#nav-hidden-messages').attr('class', ' ');
+                $('#nav-messages').attr('class', ' ');
+                $('#nav-hidden-reviews').attr('class', ' ');
+                $('#nav-reviews').attr('class', ' ');
+                $("#nav-hidden-myq").attr('class', ' ');
+                $("#nav-myq").attr('class', ' ');
+            }
+
+            $(".video").fancybox({
+                openEffect  : 'elastic',
+                closeEffect : 'fade',
+                helpers : {
+                    media : {}
+                }
+            });
+        });
+    </script>
+    <script src="https://apis.google.com/js/client.js"></script>
+</div>
+</body>
+</html>

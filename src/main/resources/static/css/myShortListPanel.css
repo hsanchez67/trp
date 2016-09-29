@@ -1,0 +1,52 @@
+#my-short-list-panel .panel-body .panel-default {
+    border: 2px solid #fff;
+}
+
+#my-short-list-panel .panel-default .panel-body {
+    background-color: #ecf0f1;
+}
+
+#my-short-list-panel .panel-body #user p {
+    margin-top: 20px;
+    position: relative;
+}
+
+#my-short-list-panel ul {
+    list-style-type: none;
+}
+
+#my-short-list-panel .panel-body-border-on {
+    border: 2px dashed #666;
+    border-radius: 10px;
+  /*  margin: 10px;
+    background-color: #e0e0e0; */
+}
+
+#my-short-list-panel .delete-icon-on {
+    font-size: 140%;
+}
+
+#my-short-list-panel .dropdown:hover .dropdown-menu {
+    min-width: 190px;
+    display: block;
+}
+
+#my-short-list-panel .dropdown a {
+    text-decoration: none;
+}
+
+#my-short-list-panel .dropdown-menu {
+    transition: opacity 0.2s 2s ease;  /* Mouse leave: delay */
+    top: 20px;
+}
+
+#my-short-list-panel a:hover {
+    text-decoration: none;
+}
+
+#my-short-list-panel #shortlist-dropdown-menu {
+    height: auto;
+    max-height: 180px;
+    overflow-x: hidden;
+    min-width: 190px;
+}
